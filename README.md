@@ -67,7 +67,7 @@ You should now see the same welcome message at:
 ```
 curl http://localhost:5985
 {"couchdb-lucene":"Welcome","version":"1.0.2"}
-curl http://localhost:5984/_fti
+curl http://admin:pass@localhost:5984/_fti
 {"couchdb-lucene":"Welcome","version":"1.0.2"}
 ```
 
